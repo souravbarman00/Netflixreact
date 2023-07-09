@@ -1,0 +1,24 @@
+.row {
+    // background-color: rgb(8, 8, 8);
+    padding: 0.5rem;
+    height: auto;
+    // display: flex;
+    // flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+  
+    > h2 {
+      margin: 0.1rem;
+      font-weight: 400;
+    }
+  
+    .scroll {
+      display: flex;
+      overflow-x: auto;
+    }
+  }
+  .row::-webkit-scrollbar-thumb {
+    background-color: black;
+  }
